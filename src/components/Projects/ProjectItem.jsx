@@ -25,7 +25,7 @@ const ProjectModal = (props) => {
           isOpen ? "opacity-100" : "opacity-0"
         }`}
       >
-        <div className="absolute flex w-[80%] flex-col items-center rounded-2xl bg-black pb-5  text-white shadow-xl sm:w-[70%] md:w-[55%] lg:w-[45%] xl:w-[35%]">
+        <div className="absolute flex w-[80%] scale-90 flex-col items-center rounded-2xl bg-black pb-5  text-white shadow-xl sm:w-[70%] md:w-[60%] lg:w-[45%] xl:w-[30%]">
           <img
             className={`mb-5 w-full rounded-t-2xl bg-gradient-to-b from-transparent  transition-opacity duration-500 to-white${
               isOpen ? "opacity-100" : "opacity-0"

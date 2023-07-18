@@ -6,7 +6,7 @@ import Typed from "react-typed";
 import Logos from "./Logos";
 const Welcome = () => {
   const [isVisible, setIsVisible] = useState(false);
-  
+
   useEffect(() => {
     setIsVisible(true);
     window.scrollTo(0, 100);
@@ -21,8 +21,7 @@ const Welcome = () => {
         isVisible ? "translate-x-0" : "-translate-x-full"
       }`}
     >
-      <section className="select-none flex flex-col md:mr-48">
-      
+      <section className="flex select-none flex-col md:mr-36">
         <div>
           <h1 className="mb-1 text-5xl font-bold text-white sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl">
             Hello,
@@ -41,7 +40,7 @@ const Welcome = () => {
         <Logos className="hidden md:mt-40  md:flex" size={60} />
       </section>
 
-      <section className="select-none flex justify-center">
+      <section className="flex select-none justify-center">
         <img
           className="mt-8 h-[200px] rounded-full  sm:ml-[-32px] sm:h-[250px] sm:w-[280px] md:mt-0 md:h-[300px] md:w-[340px] lg:ml-0 lg:h-[350px] lg:w-[350px] xl:h-[400px] xl:w-[400px]"
           src={Profilepic}

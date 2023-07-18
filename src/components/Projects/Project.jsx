@@ -13,6 +13,7 @@ const Project = () => {
       ],
       desc: "A Mobile application, that helps King Mongkut’s Institute of Technology Ladkrabang (KMITL) students to find parking slots inspecific parking areas / spots, to help find parking slots inside the campus quicker and easier. Our main users in our application are KMITL students. The students can check the number of car parked in each slots in specific",
     },
+    
   ];
 
   const [isVisible, setIsVisible] = useState(false);
@@ -33,7 +34,7 @@ const Project = () => {
       <h1 className="select-none text-2xl font-bold text-white sm:text-3xl md:text-4xl  lg:text-5xl">
         Projects
       </h1>
-      <div className="mt-10 flex w-[80%] flex-col flex-wrap justify-between rounded-xl p-10 text-white md:flex-row md:justify-between">
+      <div className="mt-16 flex w-[80%] flex-col items-center rounded-xl text-white xl:flex-row xl: justify-center xl:flex-wrap ">
        {projectitems.map((items,index) => <Projects key={index} title={items.title} desc={items.desc} logo={items.logo} picture={items.picture} />)}
       </div>
     </div>

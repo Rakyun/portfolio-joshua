@@ -22,7 +22,7 @@ const CertificateModal = (props) => {
         }`}
       ></div>
       <img
-        className={`absolute w-[800px] rounded-xl transition-all duration-500 ${
+        className={`absolute w-[90%] md:w-[50%] rounded-xl transition-all duration-500 ${
           isOpen ? "opacity-100" : "opacity-0"
         }`}
         src={WDCertificate}
