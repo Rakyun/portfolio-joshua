@@ -4,7 +4,7 @@ import { HiInformationCircle } from "react-icons/hi";
 import { BiSolidBookAlt } from "react-icons/bi";
 import { FaBars } from "react-icons/fa";
 const Header = (props) => {
-  const [drawerOpen, setDrawerOpen] = useState(true);
+  const [drawerOpen, setDrawerOpen] = useState(false);
 
   const toggleDrawer = () => {
     setDrawerOpen(!drawerOpen);
