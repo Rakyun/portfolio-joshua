@@ -22,7 +22,7 @@ const Header = (props) => {
             onClick={() => {
               props.screenChanger("Welcome");
             }}
-            className="m-1 my-4 flex cursor-pointer select-none items-center px-4 text-2xl font-bold duration-150 hover:text-gray-400 active:text-gray-200 "
+            className="m-1 my-4 flex cursor-pointer select-none items-center px-4 text-xl font-bold duration-150 hover:text-gray-400 active:text-gray-200 "
           >
             <AiFillHome size={20} className="mr-1" />
             Home
@@ -31,7 +31,7 @@ const Header = (props) => {
             onClick={() => {
               props.screenChanger("About");
             }}
-            className="m-1 my-4  flex cursor-pointer select-none items-center px-4 text-2xl font-bold duration-150 hover:text-gray-400 active:text-gray-200 "
+            className="m-1 my-4  flex cursor-pointer select-none items-center px-4 text-xl font-bold duration-150 hover:text-gray-400 active:text-gray-200 "
           >
             <HiInformationCircle size={20} className="mr-1" />
             About
@@ -40,7 +40,7 @@ const Header = (props) => {
             onClick={() => {
               props.screenChanger("Skills");
             }}
-            className="m-1 my-4 flex cursor-pointer select-none items-center px-4 text-2xl font-bold duration-150 hover:text-gray-400 active:text-gray-200 "
+            className="m-1 my-4 flex cursor-pointer select-none items-center px-4 text-xl font-bold duration-150 hover:text-gray-400 active:text-gray-200 "
           >
             <BiSolidBookAlt size={20} className="mr-1" />
             Skills
@@ -49,7 +49,7 @@ const Header = (props) => {
             onClick={() => {
               props.screenChanger("Projects");
             }}
-            className="m-1 my-4 flex cursor-pointer select-none items-center px-4 text-2xl font-bold duration-150 hover:text-gray-400 active:text-gray-200 "
+            className="m-1 my-4 flex cursor-pointer select-none items-center px-4 text-xl font-bold duration-150 hover:text-gray-400 active:text-gray-200 "
           >
             <AiFillProject size={20} className="mr-1" />
             Projects
