@@ -27,7 +27,7 @@ const ProjectModal = (props) => {
       >
         <div className="absolute flex w-[80%] scale-90 flex-col items-center rounded-2xl bg-black pb-5  text-white shadow-xl sm:w-[70%] md:w-[60%] lg:w-[45%] xl:w-[30%]">
           <img
-            className={`mb-5 w-full rounded-t-2xl bg-gradient-to-b from-transparent  transition-opacity duration-500 to-white${
+            className={`mb-5 h-[400px] w-full rounded-t-2xl bg-gradient-to-b from-transparent  transition-opacity duration-500 to-white${
               isOpen ? "opacity-100" : "opacity-0"
             }`}
             src={props.picture}
@@ -41,13 +41,9 @@ const ProjectModal = (props) => {
             <p className="mb-3 text-center text-base md:text-lg">
               {props.desc}
             </p>
-            <a
-              href="https://github.com/Rakyun/ParkSpot_Project"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href={props.link} target="_blank" rel="noopener noreferrer">
               <button className="mt-2 rounded-lg bg-white p-2  font-bold text-black duration-150  hover:bg-gray-400 active:bg-gray-300">
-                View Source Code
+                View Project
               </button>
             </a>
           </div>
@@ -67,6 +63,7 @@ const ProjectItem = (props) => {
           picture={props.picture}
           title={props.title}
           logo={props.logo}
+          link={props.link}
         />,
         document.getElementById("overlay-root")
       )}

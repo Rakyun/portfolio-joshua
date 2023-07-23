@@ -20,7 +20,7 @@ const Projects = (props) => {
         <img
           src={props.picture}
           alt="Your image"
-          className="h-auto w-full rounded-xl"
+          className="h-[400px] w-full rounded-xl"
         />
         <div
           className={`absolute inset-0 z-50 flex items-center justify-center rounded-xl bg-black opacity-0 transition-all duration-300  hover:opacity-80 `}
@@ -40,6 +40,7 @@ const Projects = (props) => {
           picture={props.picture}
           title={props.title}
           logo={props.logo}
+          link={props.link}
         />
       )}
     </section>
