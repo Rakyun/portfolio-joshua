@@ -68,7 +68,7 @@ const Skills = () => {
     {
       logo: "TH",
       name: "Thai",
-      fluency: "(Advanced)",
+      fluency: "(Professional)",
       id: Math.random(),
     },
     {
