@@ -12,6 +12,8 @@ import { SiCssmodules } from "react-icons/si";
 import { DiResponsive } from "react-icons/di";
 import { BsFillGearFill } from "react-icons/bs";
 import { SiAxios } from "react-icons/si";
+import { AiOutlineConsoleSql } from "react-icons/ai";
+import { BiLogoMongodb } from "react-icons/bi";
 
 import Item from "./Item";
 import Language from "./Language";
@@ -56,6 +58,16 @@ const Skills = () => {
     },
     { logo: <SiAxios size={70} />, name: "Axios", id: Math.random() },
     { logo: <BiLogoGithub size={70} />, name: "Github", id: Math.random() },
+    {
+      logo: <AiOutlineConsoleSql size={70} />,
+      name: "SQL",
+      id: Math.random(),
+    },
+    {
+      logo: <BiLogoMongodb size={70} />,
+      name: "MongoDB",
+      id: Math.random(),
+    },
   ];
 
   const language = [
